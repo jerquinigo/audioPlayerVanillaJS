@@ -8,7 +8,13 @@ document.addEventListener("DOMContentLoaded", ()=> {
     
     item1.addEventListener("click", e => {
         audioPlayer.src = e.target.getAttribute("href")
+        audioPlayer.play()
 
     })
 
+    item2.addEventListener("click", e => {
+
+        audioPlayer.src = e.target.getAttribute("href")
+        audioPlayer.play()
+    })
 })
